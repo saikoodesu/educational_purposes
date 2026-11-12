@@ -22,14 +22,14 @@ export default function Testpage() {
   const incrementByOne = () => {
     // count++;
     setCount((prevCount) => {
-          console.log(prevCount);
+        //   console.log(prevCount);
 
 
          return prevCount + 1});
   };
     const decrementByOne = () => {
     setCount((prevCount) => {
-          console.log(prevCount);
+        //   console.log(prevCount);
 
 
          return prevCount - 1

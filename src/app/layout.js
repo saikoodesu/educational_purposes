@@ -32,6 +32,10 @@ const linksArray = [
     title: "Test page",
     path: "/test",
   },
+  {
+    title: "Todo",
+    path: "/todo",
+  },
 ];
 
 export default function RootLayout({ children }) {
