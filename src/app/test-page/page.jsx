@@ -1,5 +1,5 @@
 "use client";
-import { useState} from "react";
+import { useState, useEffect} from "react";
 import styles from "./page.module.css";
 
 // useState, useEffect...
@@ -8,6 +8,16 @@ export default function Testpage() {
 //   let count = 0;
 
   const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    console.log("baro");
+    // dependency array:
+  }, [count]);
+
+  useEffect(() =>{
+    //ინფორმაცია წამოღება, შენახვა local storage-ში.
+    console.log(localStorage.getItem("userName"));
+  }, []);
 
   const incrementByOne = () => {
     // count++;
