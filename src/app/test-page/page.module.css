@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.count {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+.button {
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+.button:hover {
+    background-color: rgb(255, 110, 236);
+    color: rgb(0, 229, 255);
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
