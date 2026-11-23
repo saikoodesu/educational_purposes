@@ -1,9 +1,12 @@
 .headerCont {
   padding: 15px 20px;
-  background-color: lightblue;
+  /* background-color: aquamarine; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: var(--global-max-width);
+  width: 90%;
+  margin: 0 auto;
 }
 
 .navList {
@@ -11,12 +14,10 @@
   gap: 20px;
   list-style-type: none;
 }
-
 .navItem {
   color: black;
   text-decoration: none;
 }
-
 .logo {
   font-size: 25px;
 }
